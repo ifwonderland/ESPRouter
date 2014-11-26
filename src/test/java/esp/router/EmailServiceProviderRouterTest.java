@@ -2,19 +2,18 @@ package esp.router;
 
 import javax.ws.rs.core.Application;
 
+import esp.router.resource.EmailServiceProviderRouter;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-import esp.router.MyResource;
-
-public class MyResourceTest extends JerseyTest {
+public class EmailServiceProviderRouterTest extends JerseyTest {
 
     @Override
     protected Application configure() {
-        return new ResourceConfig(MyResource.class);
+        return new ResourceConfig(EmailServiceProviderRouter.class);
     }
 
     /**
