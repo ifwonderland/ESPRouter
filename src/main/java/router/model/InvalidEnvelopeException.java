@@ -1,4 +1,4 @@
-package esp.router.model;
+package router.model;
 
 import java.util.List;
 

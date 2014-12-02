@@ -1,4 +1,4 @@
-package esp.router.model;
+package router.model;
 
 /**
  *
@@ -6,7 +6,7 @@ package esp.router.model;
  *
  * Created by Shaochen Huang on 11/26/14.
  */
-public class EmailDeliveryResult {
+public abstract class AbstractEmailDeliveryResult {
 
 
 }

@@ -1,7 +1,7 @@
-package esp.router.util;
+package router.util;
 
-import esp.router.model.EmailEnvelope;
-import esp.router.model.ValidationError;
+import router.model.EmailEnvelope;
+import router.model.ValidationError;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.validator.routines.EmailValidator;
 import org.apache.log4j.Logger;

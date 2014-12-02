@@ -1,4 +1,4 @@
-package esp.router.model;
+package router.model;
 
 /**
  * POJO class reprenting email envelope used for addressing
